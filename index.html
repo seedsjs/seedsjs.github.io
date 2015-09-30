@@ -1,361 +1,228 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<title>Seeds.js Documentation</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Seeds.js is a full stack JavaScript framework for Ember.js">
+    <meta name="author" content="John-Henry Liberty">
+    <link rel="icon" href="img/favicon.ico">
 
-	<!-- stylesheets -->
-	<link rel="stylesheet" type="text/css" href="css/theme.css" />
-	<link rel="stylesheet" type="text/css" href="css/animate.css" />
-	<link rel="stylesheet" type="text/css" href="css/highlight.default.css" />
+    <title>Seeds.js</title>
 
-	<!-- javascript -->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/theme.js"></script>
-	<script src="js/highlight.min.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/animation.css" rel="stylesheet">
+    <link href="css/ionicons.min.css" rel="stylesheet">
 
-	<!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-</head>
-<body id="docs" data-spy="scroll" data-target="#guide">
-	<div id="guide">
-		<h1 class="logo">
-			<a href="index.html">Seeds</a>
-		</h1>
-		<ul class="menu nav">
-            <li>
-			  	<a href="#intro">Introduction</a>
-			</li>
-      <li>
-          <a href="#new-command">New Command</a>
-      </li>
-      <li>
-          <a href="#serve-command">Serve Command</a>
-      </li>
-      <li>
-          <a href="#generate-command">Generate Command</a>
-      </li>
-      <li>
-          <a href="#todo">TODO</a>
-      </li>
-		</ul>
-	</div>
+  </head>
 
-	<div id="api-docs">
-		<div id="methods">
-			<div class="languages">
-				<a class="language selected" data-lang="javscript" href="#">JavaScript</a>
-			</div>
-      <div class="method" id="intro">
-        <div class="method-section clearfix">
-          <div class="method-description">
-            <h3>Introduction</h3>
-            <p>
-              Seeds is a full-stack JavaScript framework utilizing Ember/Ember-Data, Sails, and Semantic-UI. It currently requires io.js 2+ as it was built on the Soil Cli framework which uses the ES6 Class syntax.
-            </p>
-            <p>
-              If you've already got io.js installed all you need to do to download Seeds is to install it with NPM.
-            </p>
-            <p>
-              If you don't have io.js installed I'd recommend using <a href="https://github.com/creationix/nvm">NVM</a> to handle your io.js/node installations.
-            </p>
-          </div>
-          <div class="method-example">
-<pre>
-<code class="ruby"># If you already have io.js installed on your system, all you need
-# to do to get started using Seeds is install it globally via npm.
+  <body>
 
-$ npm install -g seeds</code>
-</pre>
-          </div>
+  <section id="subheaderone" class="clearfix">
+    <h1>Seeds.js</h1>
+    <h2>FULL-STACK EMBER FRAMEWORK</h2>
+    <div class="earth"></div>
+     <div class="star1"></div>
+     <div class="star2"></div>
+     <div class="star3"></div>
+     <div class="star4"></div>
+     <div class="star5"></div>
+     <div class="star6"></div>
+     <div class="star7"></div>
+     <div class="star8"></div>
+     <div class="star9"></div>
+     <div class="star10"></div>
+     <div class="star11"></div>
+     <div class="star12"></div>
+  </section><!-- END Subheader-->
+
+  <div class="container ptb">
+    <div class="row centered">
+      <h3>WHAT IS SEEDS.JS</h3>
+      <hr class="aligncenter mb">
+      <div class="col-md-4">
+        <div class="circle-icon">
+          <div class="icon ion-waterdrop"></div>
+        </div>
+        <h4 class="black">Sails.js</h4>
+        <p>Seeds utilizes Sails to handle your API server. The scaffold generator will automatically create your API end points.</p>
+      </div>
+      <div class="col-md-4">
+        <div class="circle-icon">
+          <div class="icon ion-fireball"></div>
+        </div>
+        <h4 class="black">Ember.js / Ember Data</h4>
+        <p>We love building ambitious applications with Ember.js. Seeds handles generating many of the routes and models as well as wiring up Ember to your Sails API server AutoMagically™</p>
+      </div>
+      <div class="col-md-4">
+        <div class="circle-icon">
+          <div class="icon ion-leaf"></div>
+        </div>
+        <h4 class="black">Semantic UI</h4>
+        <p>An amazing user experience starts with your design so Seeds.js comes with Semantic UI, specifically designed for Ember, including easy to use components - baked right in.</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="y" class="npbottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 centered">
+          <h3>DESIGNED FOR RAPID APP DEVELOPMENT</h3>
+          <hr class="aligncenter">
+          <h4>Seeds saves you time with it's simple generators that do their job and then get out of your way so you can do what you do, boo-boo.</h4>
         </div>
       </div>
-      <div class="method" id="new-command">
-        <div class="method-section clearfix">
-          <div class="method-description">
-            <h3>New Command</h3>
-            <p>
-              Generates and bootstraps a new seeds application.
-            </p>
-            <p>
-              Requires App Name passed as an argument.
-            </p>
-          </div>
-          <div class="method-example">
-<pre>
-<code class="ruby"># App name should be passed in camelCased.
-# The new command currently takes a little while.
-
-$ seeds new appName </code>
-</pre>
-          </div>
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+          <img src="img/browser.png" class="img-responsive aligncenter" alt="">
         </div>
       </div>
-			<div class="method" id="serve-command">
-				<div class="method-section clearfix">
-					<div class="method-description">
-						<h3>Serve Command</h3>
-						<p>
-							Starts the Ember Frontend server at http://localhost:4200 and the Sails API server at http://localhost:1776
-						</p>
-					</div>
-					<div class="method-example">
-<pre>
-<code class="ruby">
-$ seeds serve
-API Server started on port 1776
-Frontend Server started on port 4200
-</code>
-</pre>
-					</div>
-				</div>
-			</div>
-			<div class="method" id="generate-command">
-        <div class="method-section clearfix">
-          <div class="method-description">
-            <h3>Generate Command</h3>
-            <p>
-              Generates files based on type of generator passed as a parameter. Some generators accept additional arguments. Controllers will accept actions to be generated on the controller
-              and Model/Scaffold generators accept attributes for the model in the form of paramname:paramtype.
-            </p>
-            <p>
-              The generator types that are currently implemented: Scaffold
-            </p>
-            <h3>Scaffold</h3>
-            <div class="info">
-              <h4>Files Generated By Scaffold</h4>
+    </div>
+  </div>
 
-              <div class="field clearfix">
-                <div class="key">Mixins</div>
-                <div class="desc">frontend/app/mixins/save-model-mixin.js</div>
-              </div>
-              <div class="field clearfix">
-                <div class="key">Adapters</div>
-                  <div class="desc">frontend/app/adapters/user.js</div>
-              </div>
-              <div class="field clearfix">
-                <div class="key">Controllers</div>
-                  <div class="desc">api/api/controllers/UserController.js</div>
-              </div>
-              <div class="field clearfix">
-                <div class="key">Models</div>
-                  <div class="desc">api/api/models/User.js</div>
-                  <div class="desc">frontend/app/models/user.js</div>
-              </div>
-              <div class="field clearfix">
-                <div class="key">Routes</div>
-                  <div class="desc">frontend/app/routes/users.js</div>
-                  <div class="desc">frontend/app/routes/users/index.js</div>
-                  <div class="desc">frontend/app/routes/users/new.js</div>
-                  <div class="desc">frontend/app/routes/users/edit.js</div>
-              </div>
-              <div class="field clearfix">
-                <div class="key">Templates</div>
-                  <div class="desc">frontend/app/templates/users.hbs</div>
-                  <div class="desc">frontend/app/templates/users/-form.hbs</div>
-                  <div class="desc">frontend/app/templates/users/edit.hbs</div>
-                  <div class="desc">frontend/app/templates/users/index.hbs</div>
-                  <div class="desc">frontend/app/templates/users/new.hbs</div>
-                  <div class="desc">frontend/app/templates/users/show.hbs</div>
-              </div>              <div class="field clearfix">
-                <div class="key">Tests</div>
-                  <div class="desc">tests/acceptance/users-test.js</div>
-              </div>
-            </div>
-          </div>
-          <div class="method-example">
-<pre>
-<code class="ruby"># Model name should be passed in its singular form.
-# Multi-Word Attributes should be passed in camelCased.
+  <div class="container ptb">
+    <div class="row">
+      <h3 class="centered mb">IMPORTANT FEATURES</h3>
 
-$ seeds generate scaffold user firstName:string lastName:string email:string age:number subscribed:boolean verified:boolean
-</code>
-<code class="ruby always-visible">
-# Also wires up the appropriate routes in
-# frontend/app/router.js
-
-  this.resource("users", function() {
-    this.route("new");
-
-    this.route("edit", {
-      path: ":user_id/edit"
-    });
-
-    this.route("show", {
-      path: ":user_id"
-    });
-  });
-</code>
-<code class="ruby always-visible"># User Object From API Server
-# http://localhost:1776/api/v1/users
-
-{
-  "firstName": "John-Henry",
-  "lastName": "Liberty",
-  "email": "jhliberty@terminalvelo.city",
-  "apiKey": "k23_JKAHA8AU73JG2KLASD",
-  "age": 28,
-  "subscribed": true,
-  "verified": true
-}
-</code>
-</pre>
-          </div>
+      <div class="col-md-1 centered">
+        <div class="circle-icon-sm">
+          <div class="icon-sm ion-grid mt"></div>
         </div>
       </div>
-			<div class="method" id="todo">
-				<div class="method-section clearfix">
-					<div class="method-description">
-            <h3>TODO</h3>
+      <div class="col-md-3">
+        <h4 class="black">Semantic Grid</h4>
+        <p>Seeds projects come with a grid system in place that's easy to use and very flexible.</p>
+      </div>
 
-            <div class="info">
 
-              <h4>Generate Command</h4>
+      <div class="col-md-1 centered">
+        <div class="circle-icon-sm">
+          <div class="icon-sm ion-ios-color-filter mt"></div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <h4 class="black">Separation of Concerns</h4>
+        <p>Seeds.js apps have a separate Sails API server to store data - our CLI tool makes it so easy to manage you may forget they are even separate.</p>
+      </div>
 
-              <div class="field clearfix">
-                <ul>
-                  <li>
-                    [x] Generate scaffold should generate the root resource route
-                    <ul>
-                      <li>
-                        ie. seeds generate scaffold user should generate templates/users.hbs with a .ui.row&gt;.ui.segment
-                      </li>
-                    </ul>
-                  </li>
-                  <li>[x] Remove DS.FixtureAdapter on generate - The API is created already so Fixtures are redundant.</li>
-                  <li>[x] save-model-mixin should only get generated once. If it exists, don&#8217;t overwrite it.</li>
-                  <li>[] Form partial should use the type of attribute to decide what type of input to use.</li>
-                </ul>
-              </div>
+
+      <div class="col-md-1 centered">
+        <div class="circle-icon-sm">
+          <div class="icon-sm ion-social-nodejs mt"></div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <h4 class="black">JavaScript All The Things</h4>
+        <p>One language for your server, your frontend and your development tools!</p>
+      </div>
+
+    </div>
+    <div class="row mt">
+
+      <div class="col-md-1 centered">
+        <div class="circle-icon-sm">
+          <div class="icon-sm ion-android-boat mt"></div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <h4 class="black">Ship Your Code</h4>
+        <p>We will be developing a modular deploy system so you can get your Seeds up and running in your production environment quickly and painlessly!</p>
+      </div>
+
+
+      <div class="col-md-1 centered">
+        <div class="circle-icon-sm">
+          <div class="icon-sm ion-cube mt"></div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <h4 class="black">Semantic Components</h4>
+        <p>Ready to go, right out of the box. We will be creating a place to share and discover Seeds.js components easily.</p>
+      </div>
+
+
+      <div class="col-md-1 centered">
+        <div class="circle-icon-sm">
+          <div class="icon-sm ion-heart mt"></div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <h4 class="black">Designed For Happiness</h4>
+        <p>Carefully crafted and continually improved with developer productivity and happiness our primary focus.</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="y">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 centered">
+          <h3>Get Started</h3>
+          <hr class="aligncenter">
+          <h4></h4>
+          <a href="http://docs.seedsjs.com/" class="seeds-actions btn btn-large btn-info"> <i class="ion-map"></i> Documentation</a>
+          <a href="https://github.com/terminalvelocity/seeds.js" class="seeds-actions btn btn-large btn-default"><i class="ion-social-github"></i> Github</a>
+          <a href="https://github.com/terminalvelocity/seeds.js/archive/master.zip" class="seeds-actions btn btn-large btn-primary"> <i class="ion-ios-cloud-download"></i> Download</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="b">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3 mb">
+
+          <h2>Newsletter</h2>
+          <p>Stay up to date with Seeds.js</p>
+          <form action="//github.us10.list-manage.com/subscribe/post?u=0d76aadd1a753eb0adf271c4e&amp;id=287502672c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div class="input-group"><span class="input-group-addon"><i class="ion-email"></i></span>
+                <input type="email" value="" name="EMAIL" class="email form-control" id="mce-EMAIL" placeholder="email address" required>
             </div>
+            <div style="position: absolute; left: -5000px;"><input type="text" name="b_0d76aadd1a753eb0adf271c4e_287502672c" tabindex="-1" value=""></div>
+            <br />
+            <input type="submit" value="Subscribe Now!" name="subscribe" id="mc-embedded-subscribe" class="btn btn-large btn-primary" />
+          </form>
 
-            <div class="info">
+        </div>
+      </div>
+    </div>
+  </div>
 
-              <h4>Server Command</h4>
+  <div id="f">
+    <div class="container">
+      <div class="row centered">
+      <h5><a href="http://seedsjs.com">Seeds.js</a></h5>
+      Crafted With <i class="ion-heart"></i>
+      <h5><a href="https://github.com/terminalvelocity">By TerminalVelo.city</a></h5>
+      </div>
+    </div>
+  </div>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-              <div class="field clearfix">
-                <ul>
-                  <li>[] Optional Names and shortcuts <code>seeds s</code> <code>seeds plant</code></li>
-                  <li>[] Pipe output of servers appended with tag (fe/api) on each line to console.</li>
-                  <li>[] (maybe) On server up open browser to localhost:4200</li>
-                </ul>
-              </div>
+      ga('create', 'UA-61106908-5', 'auto');
+      ga('send', 'pageview');
 
-            </div>
-            <div class="info">
-
-              <h4>New Command</h4>
-
-              <div class="field clearfix">
-                <ul>
-                  <li>[] Pipe output of servers appended with tag (fe/api) on each line to console.</p></li>
-                </ul>
-              </div>
-            </div>
-            <div class="info">
-
-              <h4>Soil Cli</h4>
-
-              <div class="field clearfix">
-                <ul>
-                  <li>[] commands should extend from a base command class to get access to .option, .flag, etc.. helper methods for commands.</li>
-                  <li>[] Better Logger (Winston?)
-                    <ul>
-                      <li>https://github.com/winstonjs/winston</li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="info">
-
-              <h4>Seeds General</h4>
-
-              <div class="field clearfix">
-                <ul>
-                  <li>[] Add gulp or broccoli (or brunch or mimosa or etc) buildtool</li>
-                  <li>[] Add notify hooks for events like serve, generate, and errors</li>
-                  <li>[] Possibly transpile to ES5 so we can be run on any node install</li>
-                  <li>
-                    [x] Release tool - possibly build docs for gh page too
-                    <ul>
-                      <li>Using xyz for now due to simplicity of setup</li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="info">
-              <h4>Deploy</h4>
-              <div class="field clearfix">
-                <ul>
-                  <li>[] Ship
-
-                    <ul>
-                      <li>Push up Pod and PM2/Bootstrap iojs</li>
-                      <li>Build ember app, cp to sails assets</li>
-                      <li>Add repo and git push deploy</li>
-                      <li>Spawn server on pm2 process</li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-            </div>
-					</div>
-					<div class="method-example">
-<pre>
-<code class="http always-visible">Built with <a href="https://github.com/terminalvelocity/soil-cli">Soil Cli</a>.
-Created by John-Henry Liberty
-<a href="https://twitter.com/jhliberty">(Twitter)</a> <a href="https://github.com/jhliberty">(GitHub)</a>
-
-
-If you run across an bug please <a href="https://github.com/terminalvelocity/seeds.js/issues">file an issue</a>.
-<a href="https://github.com/terminalvelocity/seeds.js">Github Repo</a>. Chat with us on <a href="https://gitter.im/terminalvelocity/seeds.js">Gitter</a>.
-</code>
-</pre>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-61106908-4', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
-	<script type="text/javascript">
-		$(function () {
-			hljs.configure({
-			  tabReplace: '  ',
-			  classPrefix: ''
-			})
-			hljs.initHighlightingOnLoad();
-
-
-			// language toggle
-			var $languages = $(".languages .language");
-			$languages.click(function (e) {
-				e.preventDefault();
-				var lang = $(this).data("lang");
-				$languages.removeClass("selected");
-				$(this).addClass("selected");
-
-				$("pre code").hide();
-				$("pre code." + lang).css("display", "block");
-			});
-		});
-	</script>
-</body>
+    </script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/retina-1.1.0.js"></script>
+  </body>
 </html>
